@@ -1,7 +1,6 @@
 ---
 abstract: |
-  Replace this with your abstract. It is lifted into the site, the PDF cover page and the Zenodo
-  deposit.
+  A short test abstract describing a starter paper used to exercise the journal pipeline.
 ---
 
 # A Starter Paper

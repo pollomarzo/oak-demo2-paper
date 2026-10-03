@@ -5,9 +5,19 @@ version: 1
 project:
   # A fresh id, unique in this journal. The build rejects this placeholder.
   # https://scholar.nexus/oaktree-sapling/guide/journal-yml#id-pattern
-  id: CHANGE-ME-template-placeholder
-  title: CHANGE-ME (your paper title)
+  id: demo2-2026-starter-paper
+  title: A Starter Paper for Demo Two
   github: https://github.com/pollomarzo/oak-demo2-paper
+  authors:
+    - name: Josiah Carberry
+      orcid: 0000-0002-1825-0097
+      affiliations:
+        - Brown University
+      email: josiah@example.org
+      corresponding: true
+      roles:
+        - conceptualization
+        - writing - original draft
   # authors:
   #   - name: Ada Lovelace
   #     orcid: 0000-0000-0000-0000
@@ -18,9 +28,9 @@ project:
   #     roles:
   #       - conceptualization
   #       - writing - original draft
-  # keywords:
-  #   - keyword one
-  #   - keyword two
+  keywords:
+    - demo
+    - testing
   # thumbnails/thumbnail.png is the picture on the journal's paper list; replace the grey one.
   bibliography:
     - bib.bib
