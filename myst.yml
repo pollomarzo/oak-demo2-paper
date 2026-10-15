@@ -5,7 +5,7 @@ version: 1
 project:
   # A fresh id, unique in this journal. The build rejects this placeholder.
   # https://scholar.nexus/oaktree-sapling/guide/journal-yml#id-pattern
-  id: demo2-2026-starter-paper
+  id: demo2-2026-doi-pr-test
   title: A Starter Paper for Demo Two
   github: https://github.com/pollomarzo/oak-demo2-paper
   authors:
@@ -42,4 +42,3 @@ project:
       version: v0.3.0-dev.8
       edition: "2026"
   date: 2026-10-03
-  doi: 10.5072/zenodo.612991
